@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+}
+.main{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index:-1;
+    width: 100%;
+    opacity: 0.6;
+}
+.sub{
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);;
+}
+.top{
+    height:5rem;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.logo{
+    top:0;
+    margin-right: 40rem;
+    margin-left:15rem ;
+    height: 8rem;
+    width:10rem;
+    background: none;
+    opacity: 1;
+    display: block;
+}
+.lang{
+    border-radius: .2rem;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:2rem;
+    width:7rem;
+    cursor: pointer;
+    margin:0 2rem;
+    border:.02rem solid white;
+    background-color: #303030;
+}
+.sign{
+    cursor: pointer;
+    height:2rem;
+    width:6rem;
+    color: white;
+    border-radius: .5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    /* margin:0 2rem; */
+}
+/* .dd{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+} */
+.head{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top:13rem;
+    text-align: center;
+    /* padding:10rem; */
+    /* width:60rem; */
+    height:30rem;
+}
+.hd{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+.subhd{
+    padding:1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.suhd{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.email{
+    border-width: 1px;
+    /* height:3rem; */
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5rem;
+    padding: 1.5rem 1rem 0.5rem;
+    width:30rem;
+    border-style: solid;
+    border-radius: 0.25rem;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+}
+.inp{
+    display: flex;
+    width:40%;
+    margin: 2rem auto;  
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.start{
+    cursor: pointer;
+    color:white;
+    cursor: pointer;
+    margin:0 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    height: 3.8rem;
+    width:12rem;
+
+}
+.submain{
+    display: flex;
+    height:60vh;
+    width:100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+}
+.content{
+    display: flex;
+    color: white;
+    margin:3rem;
+    flex-direction:column ;
+}
+.tv{
+    height: 10rem;
+    width: 20rem;;
+}
+.mb{
+    height: 20rem;
+    width:20rem;
+}
+.kid{
+    height: 20rem;
+    width:25rem;
+}
